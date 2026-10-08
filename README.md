@@ -14,6 +14,9 @@ assets/css/styles.css             styles
 assets/img/*.webp                 screenshots of the live apps (taken 8 Oct 2026)
 assets/Chidera_Ikenna-Obi_CV.pdf  downloadable CV (web copy of the master CV: no phone number or postcode)
 assets/favicon.svg
+simulated-crm/index.html          SIMULATED practice case study (fictional company): CRM implementation
+assets/simulated-crm/             downloadable artefacts for it (DOCX, PDF, XLSX, MS Project CSV)
+assets/img/simulated-crm/         artefact previews (WebP on the page, PNG full size)
 ```
 
 Case-study statements that are inferences rather than verified facts are marked with HTML comments (`<!-- C01 -->` … `<!-- C23 -->`). They're explained in `../CLAIMS_TO_CONFIRM.md`.
