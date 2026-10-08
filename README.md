@@ -34,7 +34,7 @@ or `npx serve .`
 
 The site is static and works on Vercel with zero configuration: import the folder or repo, set Framework Preset to **Other**, and leave the build command empty. The output directory is the project root. Netlify or GitHub Pages also work.
 
-> Live on Vercel; it auto-deploys from main.
+> Live at https://chideraikennaobi.vercel.app (Vercel auto-deploys from main).
 
 ## Updating
 
