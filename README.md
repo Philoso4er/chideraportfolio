@@ -14,6 +14,9 @@ assets/css/styles.css             styles
 assets/img/*.webp                 screenshots of the live apps (taken 8 Oct 2026)
 assets/Chidera_Ikenna-Obi_CV.pdf  downloadable CV (web copy of the master CV: no phone number or postcode)
 assets/favicon.svg
+ad-redesigns/index.html          unofficial concept ad redesigns (before/after); not affiliated with the advertisers
+assets/ad-redesigns/              PDF of the five concepts (web copy, logos blurred) and the ad 5 concept MP4
+assets/img/ad-redesigns/          before/after images (WebP; logos and phone number blurred in the "before" screenshots)
 ```
 
 Case-study statements that are inferences rather than verified facts are marked with HTML comments (`<!-- C01 -->` … `<!-- C23 -->`). They're explained in `../CLAIMS_TO_CONFIRM.md`.
