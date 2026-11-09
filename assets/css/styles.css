@@ -283,3 +283,21 @@ li { margin-bottom: .35em; }
 
 .sim-notice-title { font-size: 1.05rem; line-height: 1.5; }
 .sample-badge { display: inline-block; margin: .5rem 0 .75rem; background: #fdf0d8; color: #5a3602; border: 1px solid #e0b060; border-radius: 999px; padding: .25rem .8rem; font-size: .85rem; font-weight: 700; letter-spacing: .01em; line-height: 1.4; }
+
+/* Printed.com unlisted spec page */
+.printed-video-wrap { display: flex; justify-content: center; margin: 1.5rem 0 2rem; }
+.printed-video-wrap video { width: 100%; max-width: 400px; height: auto; aspect-ratio: 9 / 16; border-radius: 12px; background: #0f1d3a; display: block; box-shadow: var(--shadow); }
+.printed-carousel { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1.25rem 0 2rem; }
+.printed-carousel figure { margin: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--bg-alt); }
+.printed-carousel img { width: 100%; height: auto; display: block; }
+.printed-carousel figcaption { font-size: .85rem; color: var(--muted); padding: .5rem .7rem; border-top: 1px solid var(--line); background: #fff; }
+.printed-caption { background: var(--bg-alt); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 0 10px 10px 0; padding: 1rem 1.15rem; margin: 0 0 1.25rem; white-space: pre-wrap; }
+.printed-caption p { margin: 0 0 .6em; color: var(--ink); }
+.printed-caption p:last-child { margin: 0; }
+.printed-hashtags { font-size: .9rem; color: var(--muted); word-break: break-word; }
+.printed-meta { margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid var(--line); font-size: .95rem; color: var(--muted); }
+.printed-meta a { color: var(--accent); }
+@media (max-width: 720px) {
+  .printed-carousel { grid-template-columns: 1fr; max-width: 360px; margin-inline: auto; }
+  .printed-video-wrap video { max-width: 320px; }
+}
